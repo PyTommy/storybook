@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/custom.d.ts"],
   "exclude": ["./node_modules", ".storybook"]
 }
