@@ -1,0 +1,6 @@
+public
+build
+note_modules
+.storybook
+.gitignore
+.eslintcache
