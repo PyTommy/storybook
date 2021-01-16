@@ -22,11 +22,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
     "pretty": "prettier --write ./**/*.ts",
-    "lint": "tslint --fix -c tslint.json --project ./"
+    "lint": "tslint --fix -c tslint.json --project ./",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
